@@ -1,0 +1,11 @@
+# Run application on port 9191
+server:
+  port: 9191
+
+# Monogo db related properties
+spring:
+  data:
+    mongodb:
+      database: ProductsDB
+      host: localhost
+      port: 27017
